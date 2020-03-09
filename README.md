@@ -1,4 +1,4 @@
-# Tweet To Video
+# Flask Tweet To Video
 ## Main Exercise
 Using the twitter feed, construct a daily video summarizing a twitter handle day.
 ## Process
@@ -69,4 +69,11 @@ To be precise, we need to put user_handles in to a list. If we want to check onl
 
 ![](https://github.com/BUEC500C1/video-Cagriyoruk/blob/master/Screenshots/example_wd.png)
 
+### Flask Website
+<img width="1128" alt="2020-03-08" src="https://user-images.githubusercontent.com/55101879/76181491-aa19e080-6197-11ea-9cba-9226b390c1df.png">
+
+#### AWS Website
+```
+http://ec2-18-188-79-200.us-east-2.compute.amazonaws.com/
+```
 

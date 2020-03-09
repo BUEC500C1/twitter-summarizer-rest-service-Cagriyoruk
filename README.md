@@ -1,4 +1,4 @@
-# Tweet To Video
+# Flask Tweet To Video
 ## Main Exercise
 Using the twitter feed, construct a daily video summarizing a twitter handle day.
 ## Process

@@ -15,21 +15,18 @@ Build a Flask app, Using the twitter feed, construct a daily video summarizing a
   * In addition to this all user handle will have files belong to the most recent tweets.
   * Build an AWS instance and transferred the files via scp command.
   * Run the Flask Script on Instance
-  
-
+ 
 ## How to Use this API
+ * Go to the website provided below.
+ * Enter a twitter handle and click submit button.
+ * You are going to get redirected to the download page.
+ * Click download to downlaod the video.
+### AWS Website
+```
+http://ec2-18-188-79-200.us-east-2.compute.amazonaws.com/
+```
 
-The API object take 2 input arguments. The first one is the key. And the second one is the list of user_handles that we want to get the twitter feed from. The 'keys' file is the path to the api keys of the twitter.
 
-![](https://github.com/BUEC500C1/video-Cagriyoruk/blob/With_Stub/Screenshots/How_TO.png)
-
-The 'keys' file looks like this:
-
-![](https://github.com/BUEC500C1/video-Cagriyoruk/blob/With_Stub/Screenshots/Auth.png)
-
-The Keys can be obtained through tweepy api. In order to use this API, you need keys.
-
-To be precise, we need to put user_handles in to a list. If we want to check only one person, still we need to put it into a list like ['Cagri_yoruk'].
 
 ## Input and Output
  * If there are correct authorization keys and path of the key with the correct input like this: VideoSummary('keys',['lexfridman', 'jomaoppa', 'elonmusk']). The API would return files and videos belongs to the user handles. 
@@ -44,11 +41,6 @@ To be precise, we need to put user_handles in to a list. If we want to check onl
 
 ### Download Page
 <img width="1128" alt="2020-03-09 (1)" src="https://user-images.githubusercontent.com/55101879/76182101-eb12f480-6199-11ea-95c3-4c75e52b6ad7.png">
-
-#### AWS Website
-```
-http://ec2-18-188-79-200.us-east-2.compute.amazonaws.com/
-```
 
 
 
